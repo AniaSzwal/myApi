@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -26,6 +26,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,11 +52,33 @@
       <option name="presentableId" value="Default" />
       <updated>1630422686070</updated>
       <workItem from="1630422688326" duration="3116000" />
-      <workItem from="1630427456633" duration="311000" />
+      <workItem from="1630427456633" duration="7626000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="489" y="183" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630428045860">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state x="489" y="183" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1422.760@0.0.1422.760" timestamp="1630428045860" />
+    <state width="701" height="189" key="GridCell.Tab.0.bottom" timestamp="1630486907619">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state width="701" height="189" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1630486907619" />
+    <state width="701" height="189" key="GridCell.Tab.0.center" timestamp="1630486907619">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state width="701" height="189" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1630486907619" />
+    <state width="701" height="189" key="GridCell.Tab.0.left" timestamp="1630486907619">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state width="701" height="189" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1630486907619" />
+    <state width="701" height="189" key="GridCell.Tab.0.right" timestamp="1630486907619">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state width="701" height="189" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1630486907619" />
   </component>
 </project>
