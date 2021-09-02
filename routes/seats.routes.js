@@ -13,21 +13,37 @@ router.route('/seats/:id').get((req, res) => {
 
 router.route('/seats').post((req, res) => {
     req.body.id = uuidv4();
-    req.body.day;
-    req.body.seat;
-    req.body.client;
-    req.body.email;
-
-    db.seats.push(req.body);
-    res.json({message: 'OK'});
+    const takenSeats = db.seats.some(x => (x.seat === seat && x.day === day));
+    if (takenSeats) {
+        res.json({message: "The slot is already taken..."});
+    } else if (day && seat && client && email) {
+        day;
+        seat;
+        client;
+        day;
+        seat;
+        client;
+        email;
+        db.seats.push(req.body);
+        res.json({message: 'OK'});
+    } else {
+        res.json({message: 'Please put all informations'});
+    }
 });
 
 router.route('/seats/:id').put((req, res) => {
-    db.seats[`${req.params.id}`].day = req.body.day;
-    db.seats[`${req.params.id}`].seat = req.body.seat;
-    db.seats[`${req.params.id}`].client = req.body.client;
-    db.seats[`${req.params.id}`].email = req.body.email;
-    res.json({message: 'OK'});
+    const seatData = db.seats.find(x => (x.id === req.params.id))
+    const {day, seat, client, email} = req.body;
+
+    if (day && seat && client && email) {
+        seatData.day = day
+        seatData.seat = seat
+        seatData.client = client
+        seatData.email = email
+        res.json({message: "OK"});
+    } else {
+        res.json({message: "Please put all informations"})
+    }
 });
 
 router.route('/seats/:id').delete((req, res) => {
