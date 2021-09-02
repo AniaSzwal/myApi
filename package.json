@@ -1,10 +1,11 @@
 {
-  "name": "myAPI",
+  "name": "my-api10",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js "
+    "start": "nodemon server.js ",
+    "build": "cd client && yarn install && yarn build"
   },
   "dependencies": {
     "cors": "^2.8.5",
