@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3a8cd4a-b73b-427b-8a9d-2222e4874034" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/concertsRedux.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/concertsRedux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1630422688326" duration="3116000" />
       <workItem from="1630427456633" duration="8199000" />
       <workItem from="1630489817177" duration="4860000" />
-      <workItem from="1630578689461" duration="3750000" />
+      <workItem from="1630578689461" duration="4987000" />
     </task>
     <servers />
   </component>
@@ -98,9 +98,9 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state width="1402" height="189" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1630492008049" />
-    <state x="370" y="35" width="672" height="676" key="search.everywhere.popup" timestamp="1630582367811">
+    <state x="370" y="35" width="672" height="676" key="search.everywhere.popup" timestamp="1630583702985">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state x="370" y="35" width="672" height="676" key="search.everywhere.popup/0.0.1422.760@0.0.1422.760" timestamp="1630582367811" />
+    <state x="370" y="35" width="672" height="676" key="search.everywhere.popup/0.0.1422.760@0.0.1422.760" timestamp="1630583702985" />
   </component>
 </project>
