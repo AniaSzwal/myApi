@@ -8,7 +8,7 @@ router.route('/concerts').get((req, res) => {
 });
 
 router.route('/concerts/:id').get((req, res) => {
-    res.json(db.concerts[`${req.params.id}`]);
+    res.json(db.concerts[`${req.params.id}`]); //tu w tym miejcu wstaw zmienną req.params.id - to mowi dolar
 });
 
 router.route('/concerts').post((req, res) => {
